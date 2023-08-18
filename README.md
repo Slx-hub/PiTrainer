@@ -2,7 +2,7 @@
 
 Main reason for this one-day project was that the following page for memorizing Pi:
 
-[https://www.piday.org/pi-quiz/]
+[https://www.piday.org/pi-quiz/]()
 
 did not offer a feature to practice digits further down the line.
 
