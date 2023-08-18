@@ -1,0 +1,15 @@
+﻿<Window x:Class="PiTrainer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PiTrainer"
+        mc:Ignorable="d"
+        Title="PiTrainer" Height="215" Width="828"
+        Background="#899093">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="16,121,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Calibri" FontSize="48" RenderTransformOrigin="0.5,-0.051"><Run Text="Decimal"/><Run Language="en-de" Text="s"/><Run Text=":"/></TextBlock>
+        <TextBox x:Name="DecimalsBox" HorizontalAlignment="Left" Margin="210,120,0,0" Text="{Binding CorrectDecimals, Mode = TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="109" KeyUp="DecimalsBox_KeyUp" FontFamily="Calibri" FontSize="48" TextAlignment="Right" Background="{x:Null}" BorderBrush="Black"/>
+        <TextBox x:Name="PiBox" HorizontalAlignment="Center" Margin="0,10,0,0" Text="{Binding EnteredPi, Mode = TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="800" TextChanged="PiBox_TextChanged" KeyUp="PiBox_KeyUp" GotFocus="PiBox_GotFocus" FontFamily="Calibri" FontSize="72" TextAlignment="Right" Grid.RowSpan="2" Background="{x:Null}" BorderThickness="2,2,2,2" BorderBrush="Black"/>
+    </Grid>
+</Window>

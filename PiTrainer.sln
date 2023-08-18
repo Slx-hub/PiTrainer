@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34003.232
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiTrainer", "PiTrainer.csproj", "{43662AA2-E041-4768-90E4-D326BB9489C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43662AA2-E041-4768-90E4-D326BB9489C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43662AA2-E041-4768-90E4-D326BB9489C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43662AA2-E041-4768-90E4-D326BB9489C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43662AA2-E041-4768-90E4-D326BB9489C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C57F4305-6AAC-49FA-B345-5EF70BF3B4ED}
+	EndGlobalSection
+EndGlobal
